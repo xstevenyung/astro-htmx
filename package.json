@@ -1,12 +1,22 @@
 {
   "name": "astro-htmx",
   "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xstevenyung/astro-htmx.git"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
   "devDependencies": {
     "astro": "^3.0.0",
-    "htmx.org": "^1.9.6"
+    "htmx.org": "^1.9.0"
   },
   "peerDependencies": {
     "astro": "^3.0.0",
-    "htmx.org": "^1.9.6"
+    "htmx.org": "^1.9.0"
   }
 }

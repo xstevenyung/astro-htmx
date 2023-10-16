@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+let isSubmitted = false;
+if (Astro.request.method === "POST") {
+  isSubmitted = true;
+}
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <form hx-post="" hx-swap="innerHTML" hx-select="form">
+      {isSubmitted && <p>Submitted</p>}
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</Layout>
