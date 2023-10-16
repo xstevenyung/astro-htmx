@@ -1,0 +1,11 @@
+{
+  "name": "astro-htmx",
+  "devDependencies": {
+    "astro": "^3.0.0",
+    "htmx.org": "^1.9.6"
+  },
+  "peerDependencies": {
+    "astro": "^3.0.0",
+    "htmx.org": "^1.9.6"
+  }
+}
