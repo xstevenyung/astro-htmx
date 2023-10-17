@@ -1,6 +1,6 @@
 {
   "name": "astro-htmx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "type": "module",
   "repository": {
@@ -12,7 +12,10 @@
     "./package.json": "./package.json"
   },
   "keywords": [
-    "withastro"
+    "astro",
+    "withastro",
+    "astro-integration",
+    "astro-component"
   ],
   "devDependencies": {
     "astro": "^3.0.0",
