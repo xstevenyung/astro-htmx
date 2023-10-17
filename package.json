@@ -1,6 +1,6 @@
 {
   "name": "astro-htmx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "module",
   "repository": {
@@ -11,6 +11,9 @@
     ".": "./src/index.js",
     "./package.json": "./package.json"
   },
+  "keywords": [
+    "withastro"
+  ],
   "devDependencies": {
     "astro": "^3.0.0",
     "htmx.org": "^1.9.0"
