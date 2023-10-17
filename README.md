@@ -1,4 +1,4 @@
-# @astrojs/htmx
+# astro-htmx
 
 This **[Astro integration](https://astro.build/integrations/)** adds [HTMX.org](https://htmx.org) to your project so that you can use HTMX.org anywhere on your page.
 
@@ -14,13 +14,13 @@ This **[Astro integration](https://astro.build/integrations/)** adds [HTMX.org](
 
 ### Manual Install
 
-First, install the `@astrojs/alpinejs` package using your package manager. If you're using npm or aren't sure, run this in the terminal:
+First, install the `astro-htmx` package using your package manager. If you're using npm or aren't sure, run this in the terminal:
 
 ```sh
 npm install astro-htmx
 ```
 
-Most package managers will install associated peer dependencies as well. However, if you see a "Cannot find package 'alpinejs'" (or similar) warning when you start up Astro, you'll need to manually install Alpine.js yourself:
+Most package managers will install associated peer dependencies as well. However, if you see a "Cannot find package 'htmx.org'" (or similar) warning when you start up Astro, you'll need to manually install HTMX yourself:
 
 ```sh
 npm install htmx.org
@@ -55,15 +55,9 @@ The HTMX.org integration does not give you control over how the script is loaded
 // src/pages/index.astro
 ---
 
-<!-- Example: Load AlpineJS on a single page. -->
+<!-- Example: Load HTMX on a single page. -->
 <script>
-  import Alpine from 'alpinejs';
-
-  // Optional: Extend Alpine.js
-  // Alpine.directive('foo', ...)
-
-  window.Alpine = Alpine;
-  Alpine.start();
+  import "htmx.org";
 </script>
 ```
 
