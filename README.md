@@ -2,7 +2,7 @@
 
 This **[Astro integration](https://astro.build/integrations/)** adds [HTMX.org](https://htmx.org) to your project so that you can use HTMX.org anywhere on your page.
 
-- <strong>[Installation](#installation)</strong>
+- <strong>[Inst**al**lation](#installation)</strong>
 - <strong>[Usage](#usage)</strong>
 - <strong>[Configuration](#configuration)</strong>
 - <strong>[Examples](#examples)</strong>
@@ -17,13 +17,7 @@ This **[Astro integration](https://astro.build/integrations/)** adds [HTMX.org](
 First, install the `astro-htmx` package using your package manager. If you're using npm or aren't sure, run this in the terminal:
 
 ```sh
-npm install astro-htmx
-```
-
-Most package managers will install associated peer dependencies as well. However, if you see a "Cannot find package 'htmx.org'" (or similar) warning when you start up Astro, you'll need to manually install HTMX yourself:
-
-```sh
-npm install htmx.org
+npm install astro-htmx htmx.org
 ```
 
 Then, apply this integration to your `astro.config.*` file using the `integrations` property:
