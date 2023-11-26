@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "astro": "^3.3.0",
-    "astro-htmx": "file:../.."
+    "astro-htmx": "file:.."
   }
 }
