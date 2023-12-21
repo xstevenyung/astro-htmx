@@ -18,11 +18,11 @@
     "astro-component"
   ],
   "devDependencies": {
-    "astro": "^3.0.0",
+    "astro": "^4.0.0",
     "htmx.org": "^1.9.0"
   },
   "peerDependencies": {
-    "astro": "^3.0.0",
-    "htmx.org": "^1.9.0"
+    "astro": ">= ^3.0.0",
+    "htmx.org": ">= ^1.9.0"
   }
 }
