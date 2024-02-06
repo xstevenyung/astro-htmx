@@ -38,7 +38,7 @@ Then, apply this integration to your `astro.config.*` file using the `integratio
 
 Once the integration is installed, you can use [HTMX.org](https://htmx.org) directives and syntax inside any Astro component. The HTMX.org script is automatically added and enabled on every page of your website.
 
-Check [Astro Integration Documentation][https://astro.build/integrations/] for more on integrations.
+Check [Astro Integration Documentation](https://astro.build/integrations/) for more on integrations.
 
 ## Limitations
 
@@ -65,7 +65,8 @@ The HTMX.org integration does not support any custom configuration at this time.
 
 ## Contributing
 
-This package is maintained by xstevenyung. You're welcome to submit an issue or PR!
+This package is maintained by [xstevenyung](https://github.com/xstevenyung). You're welcome to submit an issue or PR!
 
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 [astro-ui-frameworks]: https://docs.astro.build/en/core-concepts/framework-components/#using-framework-components
+[htmx]: https://htmx.org/
